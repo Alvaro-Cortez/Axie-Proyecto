@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="/css/style.css">
+        <title>Axie imitacion</title>
+    </head>
+<body>
+    <script src="/script.js"></script>
+    <header>
+        <nav>
+            <div class="head">
+                <a href="#" class="active">Home</a>
+    
+                <a class="nav-link" href="#">Como funciona</a>
+            
+                <a class="nav-link" href="#">Contacto</a>
+            
+                <a class="nav-link" href="#">Versiones</a>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="tools">
+            <div class="calculator">
+                <div class="round-container">
+                    <div class="round-info">
+                        <span>Ronda</span>
+                        <span id="roundNumber">1</span>
+                    </div>
+                    <div class="energy-cantidad">
+                        
+                        <span>
+                            <b id="actualEnergy" class="actual-energy">3</b>
+                            <b class="energy-divider">/</b>
+                            <b class="max-energy">10</b>
+                        </span>
+                    </div>
+                </div>
+                <div class="ene-gain-loss-container">
+                    <div class="energy-tools">
+                        <button onclick="lessEnergy()">
+                            <i class="fas-fa-minus">
+                                
+                            </i>
+                            "-1 Energia"
+                        </button>
+                        <button onclick="moreEnergy()" class="color">
+                            <i class="fas-fa-plus">
+                                
+                            </i>
+                            "+1 Energia"
+                        </button>
+                    </div>
+                    <div class="energy-tools">
+                        <button id="newRound" onclick="newRound()">Siguiente ronda</button>
+                        <button id="newGame" onclick="newGame()">Nueva partida</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
